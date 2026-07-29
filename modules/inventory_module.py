@@ -124,3 +124,4 @@ def decrement_stock(db: Session, car_id: int, quantity: int = 1) -> Car:
     db.commit()
     db.refresh(car)
     return car
+
