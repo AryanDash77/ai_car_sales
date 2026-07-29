@@ -65,3 +65,4 @@ def get_user_by_id(db: Session, user_id: int) -> User | None:
     """Fetches a user by their ID — used to keep session state in Streamlit."""
     return db.query(User).filter(User.id == user_id).first()
 
+
