@@ -225,5 +225,6 @@ try:
 finally:
     # Ensure the DB session is ALWAYS closed
     db.close()
+    print("samarth")
 
 
