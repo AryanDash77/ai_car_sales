@@ -53,7 +53,7 @@ if "user" not in st.session_state:
 db = SessionLocal()
 
 try:
-    st.sidebar.title("🚗 AI Car Sales")
+    st.sidebar.title("🚙 AI Car Sales System")
 
     if st.session_state.user:
         st.sidebar.write(f"Logged in as **{st.session_state.user.name}** ({st.session_state.user.role})")
@@ -225,5 +225,6 @@ try:
 finally:
     # Ensure the DB session is ALWAYS closed
     db.close()
+    print("samarth")
 
 
