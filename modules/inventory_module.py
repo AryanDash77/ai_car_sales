@@ -126,4 +126,8 @@ def decrement_stock(db: Session, car_id: int, quantity: int = 1) -> Car:
     return car
 
 
+<<<<<<< HEAD
+print("Inventory module , some changes.")
+=======
 
+>>>>>>> main
